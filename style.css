@@ -1,0 +1,157 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+
+.clock {
+    background-color: rgba(50, 51, 51, 0.507);
+    border-radius: 50%;
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+
+#twelve {
+    position: absolute;
+    left: 49%;
+    font-size: 50px;
+}
+
+#one {
+    position: absolute;
+    left: 57%;
+    top: 10%;
+    font-size: 50px;
+}
+
+#two {
+    position: absolute;
+    left: 62%;
+    top: 21%;
+    font-size: 50px;
+}
+
+#three {
+    position: absolute;
+    left: 65%;
+    font-size: 50px;
+    top: 34%;
+}
+
+#four {
+    position: absolute;
+    left: 63%;
+    top: 48%;
+    font-size: 50px;
+}
+
+#five {
+    position: absolute;
+    left: 57%;
+    top: 60%;
+    font-size: 50px;
+}
+
+#six {
+    position: absolute;
+    left: 49%;
+    top: 65%;
+    font-size: 50px;
+}
+
+#seven {
+    position: absolute;
+    font-size: 50px;
+    top: 60%;
+    left: 40%;
+}
+
+#eight {
+    position: absolute;
+    font-size: 50px;
+    top: 47%;
+    left: 35%;
+}
+
+
+#nine {
+    position: absolute;
+    font-size: 50px;
+    top: 33%;
+    left: 33%;
+}
+
+#ten {
+    position: absolute;
+    font-size: 50px;
+    top: 20%;
+    left: 35%;
+}
+
+#eleven {
+    position: absolute;
+    font-size: 50px;
+    top: 9%;
+    left: 40%;
+}
+
+.hr-hand {
+    width: 8%;
+    height: 4px;
+    background: rgba(0, 0, 0, 0.808);
+    position: absolute;
+    top: 42%;
+    left: 42%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.mi-hand {
+    width: 10%;
+    height: 4px;
+    background: rgba(0, 0, 0, 0.808);
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.sc-hand {
+    width: 12%;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 42%;
+    left: 38%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.dark-mode-btn {
+    background-color: rgba(0, 0, 0, 0.644);
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+
+.dark-mode {
+    background-color: rgba(0, 0, 0, 0.808);
+}
+
+.darkname {
+    color: rgb(248, 248, 248);
+}
+
+.dark-clock {
+    background-color: rgb(207, 204, 204);
+}
